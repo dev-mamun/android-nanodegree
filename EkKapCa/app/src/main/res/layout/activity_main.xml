@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/shop_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/acupoftea" />
+
+    <TextView
+    android:id="@+id/shop_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ek kap Ca (A cup of tea)"
+    android:textColor="@android:color/white"
+    android:textSize="20sp"
+    android:layout_below="@+id/shop_img"
+    android:layout_margin="10dp"
+    android:paddingTop="20px" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can drink different type of tea, Like 7 color tea, Lemon tea, Orrange Tea and many More. Come and enjoy"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/shop_name"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buddha Mandir Bus Stop, Kadomtala, Bashabao"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/description"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mamun1214@gmail.com"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/address"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/operation_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 am to 7pm"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/email"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

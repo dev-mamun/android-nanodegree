@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kabaddi Score Keeper</string>
+    <string name="team_a">Lakshmipur</string>
+    <string name="team_b">Dhaka</string>
+    <string name="result">Result</string>
+    <string name="reset">Reset</string>
+</resources>

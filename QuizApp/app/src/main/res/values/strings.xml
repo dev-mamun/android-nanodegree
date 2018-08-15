@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">1. "What does Bangladesh's flag look like?"</string>
+    <string name="question_2">2. What year did Bangladesh finally become independent and gain the name it has today?</string>
+    <string name="question_3">3. What is the main religion practiced in Bangladesh?</string>
+    <string name="question_4">4. Which river of Bangladesh originates in Tibet?</string>
+    <string name="question_5">5. What is the Time Zone of Bangladesh ?</string>
+    <string name="question_6">6. Over 90% of Bangladesh is on average what height above sea level ?(result in metres)</string>
+</resources>
