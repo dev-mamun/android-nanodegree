@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Dhaka Guide</string>
+    <string name="category_event">Events</string>
+    <string name="category_restaurants">Restaurant</string>
+    <string name="category_reviews">Reviews</string>
+    <string name="category_places">Places</string>
+
+    <string name="res_one">Boomers</string>
+    <string name="res_two">Koyla</string>
+    <string name="res_three">Star Kabab</string>
+    <string name="res_review_one">Did you know we started welcoming guests first at Banani, Dhaka, Bangladesh since 2001? Since then,it has expanded to 4 outlets all over Dhaka, be it celebrations, a break at lunch or just a great meal, we just enjoy giving you the perfect place to share great time with friends and family. From the first day we had a motto to serve fresh, 100% halal and healthy food to you. So, we have maintained a well oiled supply chain to provide absolutely fresh inventory and a well trained team to provide unprecedented  hospitality.</string>
+    <string name="res_review_two">Koyla is a renowned restaurant in Bangladesh for its Kabab and Indian Food. It is a complete Mughol Kitchen with diversified Indian and Bangladeshi Food Menu. Koyla is serving the people who love to eat through its three outlets. The outlets are situated at Dhaka, and Cox’s Bazzar. In the name of Kabab sector Koyla is the prominent restaurant which starts its business in 2008.</string>
+    <string name="res_review_three">Star Kabab is a kabab restaurant chain located in Dhaka, Bangladesh. It has 11 branches in Dhaka. In 2015 it won the best Bangladeshi restaurant award in The Daily Star Foodiez choice awards.</string>
+
+
+    <string name="place_one">Ahsan Manzil</string>
+    <string name="place_two">lalbaghfort</string>
+    <string name="place_three">sonargaon</string>
+    <string name="place_review_one">Great historical place in Dhaka city. Nice place to spend leisure with friends. Its green environment can refreshes anyone’s mind. Clean and fresh environment is also remarkable. There is a nice museum. Highly recommended to visit this great historical place.</string>
+    <string name="place_review_two">Lalbag fort is a historical place of Bangladesh. I went to visit this historical place last Friday. This a very crowded place in Friday. There was a long line for tickets. Students from different classes and different institution come to visit this place every day. They enjoyed visiting the place with their friends and family. They can know the history of this fort when they visit the place practically. But the fort needs to be maintained properly and cleaned everyday.</string>
+    <string name="place_review_three">Sonargaon was a historic administrative, commercial and maritime centre in Bengal. Situated in the centre of the Ganges delta, it was the seat of the medieval Muslim rulers and governors of eastern Bengal.</string>
+
+
+    <string name="event_one">Bangladesh International Trade Fair</string>
+    <string name="event_two">International Conference on Networking Systems and Security (NSysS)</string>
+    <string name="event_three">Dhaka Int\'l Textile  Garment Machinery Exhibition (DTG)</string>
+    <string name="event_review_one">Wed, 28 Nov - Sun, 02 Dec 2018</string>
+    <string name="event_review_two">Tue, 18 - Thu, 20 Dec 2018</string>
+    <string name="event_review_three">Wed, 09 - Sat, 12 Jan 2019</string>
+
+
+</resources>

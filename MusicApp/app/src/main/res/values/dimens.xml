@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="little_margin">8dp</dimen>
+    <dimen name="size_title_of_album">16sp</dimen>
+    <dimen name="size_title_of_song">16sp</dimen>
+    <dimen name="size_of_name_current_song">18sp</dimen>
+</resources>

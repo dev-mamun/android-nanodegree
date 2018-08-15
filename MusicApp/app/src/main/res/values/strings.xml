@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Music Player</string>
+
+    <string name="albums_name">Albums</string>
+    <string name="artist_name">Artists</string>
+    <string name="now_playing">Now playing</string>
+    <string name="albums">Albums</string>
+    <string name="artist">Artist</string>
+    <string name="now_playing_name">Now playing</string>
+
+
+    <string name="awolnation_band_name">LRB</string>
+    <string name="abney_park_band_name">Warfaze</string>
+    <string name="lost_horizons_album_name">শেষ চিঠি</string>
+    <string name="run_album">এখন অনেক রাত</string>
+    <string name="now_is_playing_screen_descriptions">Here is the main screen for listening to songs. You can change songs, loop songs, play randomly, change volume and scroll through songs. There is also an option for buying the current songs, but it requires implement some transaction API</string>
+    <string name="albums_screen_description">Here is an album list screen. This screen should support scrolling. You can add an album to the playlist (the \'Add to playlist\' button, the \'Play list\' screen should be implemented) or play the selected album by clicking on the \'Play\' button. When clicked, the user is moved to the \'Now is playing\' screen.</string>
+    <string name="example_artist">Artist One</string>
+    <string name="example_about_artist">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit dictum justo at feugiat. Cras finibus et arcu pharetra pretium. Proin ultrices nunc vel commodo aliquet. Maecenas dignissim vulputate.</string>
+    <string name="read_more_button_name">Read more</string>
+    <string name="artist_two">Artist Two</string>
+    <string name="about_artist">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit dictum justo at feugiat. Cras finibus et arcu pharetra pretium. Proin ultrices nunc vel commodo aliquet. Maecenas dignissim vulputate.</string>
+    <string name="artist_four">Artist Four</string>
+    <string name="artist_screen_description">This is a scrolling screen with descriptions of artists. You can click on \'Read more\' and then you will be move to resources available on the web. Function is not implemented, should be used \'intent\' url</string>
+    <string name="example_band_name">Band One</string>
+    <string name="say_something_album_name">Say Something</string>
+    <string name="current_song_name">Jaalo Aagun Jaalo</string>
+    <string name="start_time_of_song">0:00</string>
+    <string name="end_time_of_song">4:12</string>
+    <string name="about_warfaze">Warfaze is a Bangladeshi hard rock band. The group consists of Palash Noor (vocals), Ibrahim Ahmed Kamal (lead guitar), Sheikh Monirul Alam Tipu (drums and percussion), Samir Hafiz (guitar), Shams Mansoor Ghani (keyboards and vocals), and Naim Haque Roger (bass). Multiple changes have taken place in membership since its founding in 1984. Since their inception, the band has released eight albums, including seven studio albums and one compilation album. In addition, they have released several singles in band mixed albums. They have also released three songs in a Lalon tribute album called Somorpon which also included songs from Habib Wahid and Aurthohin.</string>
+
+
+
+</resources>
