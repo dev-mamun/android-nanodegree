@@ -64,7 +64,7 @@ public class QueryUtils {
             urlConnection.setRequestMethod("GET");
             urlConnection.connect();
 
-            if (urlConnection.getResponseCode() == 200) {
+            if (urlConnection.getResponseCode() == urlConnection.HTTP_OK) {
                 inputStream = urlConnection.getInputStream();
                 jsonResponse = readFromStream(inputStream);
             } else {
@@ -109,17 +109,17 @@ public class QueryUtils {
             JSONArray resultsArray = response.getJSONArray("results");
             for (int i = 0; i < resultsArray.length(); i++) {
                 JSONObject currentResults = resultsArray.getJSONObject(i);
-                String Title = currentResults.getString("webTitle");
-                String category = currentResults.getString("sectionName");
-                String date = currentResults.getString("webPublicationDate");
-                String url = currentResults.getString("webUrl");
+                String Title = currentResults.optString("webTitle");
+                String category = currentResults.optString("sectionName");
+                String date = currentResults.optString("webPublicationDate");
+                String url = currentResults.optString("webUrl");
                 JSONArray tagsauthor = currentResults.getJSONArray("tags");
                 String author = "";
                 if (tagsauthor.length() != 0) {
                     JSONObject currenttagsauthor = tagsauthor.getJSONObject(0);
-                    author = currenttagsauthor.getString("webTitle");
+                    author = currenttagsauthor.optString("webTitle");
                 } else {
-                    author = Resources.getSystem().getString(R.string.noauthor);
+                    author = "No Author ..";
                 }
                 News news = new News(Title, category, date, url, author);
                 newsList.add(news);

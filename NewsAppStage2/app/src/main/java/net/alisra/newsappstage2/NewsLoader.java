@@ -9,10 +9,7 @@ import java.util.List;
 
 public class NewsLoader extends AsyncTaskLoader {
 
-    private final String apiKey = "e36fef29-fdff-4b39-a41b-395c2f6a2d4d";
     String url;
-    /*private static String REQUEST_URL =
-            "http://content.guardianapis.com/search?show-tags=contributor&api-key="+this.apiKey;*/
 
     public NewsLoader(Context context, String url) {
 
