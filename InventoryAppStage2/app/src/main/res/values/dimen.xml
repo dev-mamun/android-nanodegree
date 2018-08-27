@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity_inventory -->
+    <dimen name="plus_margin">16dp</dimen>
+    <dimen name="inventory_margin">16dp</dimen>
+
+    <!-- list_item -->
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="list_item_textview_marginRight">10dp</dimen>
+    <dimen name="list_item_linearlayout_marginLeft">5dp</dimen>
+</resources>

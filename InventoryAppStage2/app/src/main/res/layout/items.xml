@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/list_item_margin">
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection1">
+
+        <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+            <TextView
+                android:id="@+id/name_product_text_view"
+                style="@style/ListItemText"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="@dimen/list_item_textview_marginRight"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                tools:text="product name" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ListItemLinearLayoutsection2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_quantity_text_view"
+                style="@style/ListItemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                tools:text="product quantity" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection1">
+
+        <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+            <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+                <TextView
+                    android:id="@+id/product_price_text_view"
+                    style="@style/ListItemText"
+                    android:layout_width="wrap_content"
+                    tools:text="product price" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+                <LinearLayout style="@style/ListItemLinearLayoutsection1">
+
+                    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+                        <Button
+                            android:id="@+id/sale_button"
+                            style="@style/ListItembuttonstyle"
+                            android:drawableLeft="@drawable/ic_shopping_cart_white_24dp"
+                            android:text="Sale" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/ListItemLinearLayoutsection2"
+                        android:layout_width="2dp"
+                        android:layout_marginLeft="@dimen/list_item_linearlayout_marginLeft">
+
+                        <Button
+                            android:id="@+id/edit_button"
+                            style="@style/ListItembuttonstyle"
+                            android:drawableLeft="@drawable/ic_create_white_24dp"
+                            android:text="Edit" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
