@@ -64,7 +64,7 @@ public class QueryUtils {
             urlConnection.setRequestMethod("GET");
             urlConnection.connect();
 
-            if (urlConnection.getResponseCode() == urlConnection.HTTP_OK) {
+            if (urlConnection.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 inputStream = urlConnection.getInputStream();
                 jsonResponse = readFromStream(inputStream);
             } else {
@@ -118,8 +118,6 @@ public class QueryUtils {
                 if (tagsauthor.length() != 0) {
                     JSONObject currenttagsauthor = tagsauthor.getJSONObject(0);
                     author = currenttagsauthor.optString("webTitle");
-                } else {
-                    author = "No Author ..";
                 }
                 News news = new News(Title, category, date, url, author);
                 newsList.add(news);
