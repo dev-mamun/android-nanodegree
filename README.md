@@ -20,5 +20,5 @@ This repository contains all the projects done as part of the [Android Basic Nan
 
 [https://confirm.udacity.com/K6QZPVLN](https://confirm.udacity.com/K6QZPVLN)
 
-![Certificate](cert.png)
+![Certificate](androidcert.JPG)
 
